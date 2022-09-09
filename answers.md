@@ -99,10 +99,20 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 
 Answer 10
-
+The changes made were not reflected in the local file.
 
 
 Answer 11
+Input: git push
+It refuses to take the command as the online version has changes that aren't present in the local file. It suggests to input "git pull" before trying again.
 
 
 Answer 12
+Input: git pull
+The changes were uploaded to the local copy.
+
+Answer 13
+Input: ls -a
+Output:
+. .. .git .gitignore README.md
+
